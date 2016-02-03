@@ -294,6 +294,7 @@ footer p {
 
   .container {
     width: 96%;
+    margin:0 auto;
   }
 
   .logo {
@@ -336,6 +337,16 @@ footer p {
     font-size: 20px;
   }
 
+  .post p:first-of-type:first-letter {
+    float: left;
+    font-size: 50px;
+    line-height: 50px;
+    padding-top: 0px;
+    padding-right: 6px;
+    padding-left: 2px;
+    font-weight: 600;
+  }
+
   #sidebar{
     width: 96%;
   }
@@ -348,5 +359,6 @@ footer p {
     font-size: 20px;
     display: inline-block;
   }
+
 
 }
